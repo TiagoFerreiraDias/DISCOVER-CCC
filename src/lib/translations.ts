@@ -1,0 +1,182 @@
+export const translations = {
+  PT: {
+    nav: {
+      login: "Login / Registo",
+      profile: "Perfil",
+      favorites: "Favoritos",
+      logout: "Sair",
+      greeting: "Olá",
+      user: "Utilizador",
+      home: "Início",
+      explore: "Explorar",
+      routes: "Rotas",
+      events: "Eventos",
+      settings: "Definições",
+      menu: "Menu"
+    },
+    hero: {
+      title: "Continents, Countries and Cities",
+      subtitle: "O teu ponto de partida elegante e prático para explorar a cidade de Santarém.",
+      start_btn: "Começar a Explorar",
+      weather_santarem: "Santarém",
+      weather_status: "Ensolarado, 22°C"
+    },
+    sections: {
+      discover: "Encontre atividades",
+      discover_sub: "Seja qual for a sua preferência, nós temos o roteiro ideal para si.",
+      cultura: "Cultura",
+      atividades: "Atividades",
+      restaurantes: "Restaurantes",
+      alojamento: "Alojamento"
+    },
+    search: {
+      placeholder: "Pesquisar monumentos, restaurantes, trilhos em Santarém...",
+      close: "Fechar",
+      filterBy: "Filtrar por Categoria:",
+      all: "Destaques",
+      resultsFor: "Resultados instantâneos para",
+      exploring: "A explorar:",
+      detail: "Santarém ao detalhe",
+      discoveries: "descobertas",
+      noResults: "Nenhum resultado encontrado.",
+      tryOthers: "Tenta pesquisar por outras palavras mágicas ou limpa os filtros.",
+      clear: "Limpar Pesquisa e Filtros"
+    },
+    profile: {
+      title: "O Meu Perfil",
+      subtitle: "Os teus tesouros de Santarém. Sincronizados com a tua App Mobile.",
+      traveler: "Viajante CCC",
+      saved: "Locais Guardados",
+      emptyBag: "Mochila vazia",
+      emptyBagDesc: "Ainda não guardaste nenhum local.",
+      exploreBtn: "Explorar",
+      myRoutes: "As Minhas Rotas",
+      routeNameInput: "Nome da Rota (Obrigatório)",
+      selectPlaces: "Seleciona os locais",
+      cancel: "Cancelar",
+      saveRoute: "Guardar Rota",
+      saving: "A Guardar...",
+      noRoutes: "Ainda não organizaste nenhuma rota. Agrupa os teus locais favoritos para a tua próxima viagem!",
+      placesInRoute: "Locais na Rota",
+      loading: "A carregar o teu passaporte...",
+      createRoute: "Criar Rota",
+      newRoute: "Nova Rota",
+      noFavoritesYet: "Ainda não tens favoritos na tua mochila! Vai à página Explorar e guarda alguns locais primeiro.",
+      stops: "paragens",
+      openMap: "Abrir Mapa",
+      freeLimitTitle: "Limite Gratuito Atingido",
+      freeLimitDesc: "Já atingiste o limite de 3 itinerários do plano gratuito. Faz upgrade para Premium para roteiros ilimitados na app.",
+      unlockPremium: "Desbloquear Premium ✨"
+    },
+    events: {
+      title: "Eventos em Santarém",
+      subtitle: "Feiras, concertos, espetáculos e outras actividades na cidade.",
+      intro:
+        "Lista sincronizada automaticamente (formato RSS). Cada evento mostra data, local e resumo — usa «Ver mais» para ler o texto completo aqui.",
+      loading: "A carregar eventos…",
+      error:
+        "Não foi possível carregar a lista neste momento. Carrega de novo na página ou espera um minuto e tenta outra vez.",
+      retry: "Tentar novamente",
+      none: "Não há eventos listados neste momento.",
+      noSearchResults: "Nenhum evento corresponde à pesquisa ou à data escolhida.",
+      searchPlaceholder: "Pesquisar por nome ou palavra…",
+      filterByDate: "Data",
+      clearFilters: "Limpar",
+      expandMore: "Ver mais",
+      showLess: "Mostrar menos",
+      noteFooter: "Texto completo conforme o feed público.",
+      source: "Fonte",
+      footerCredit: "Câmara Municipal de Santarém"
+    }
+  },
+  EN: {
+    nav: {
+      login: "Login / Register",
+      profile: "Profile",
+      favorites: "Favorites",
+      logout: "Logout",
+      greeting: "Hello",
+      user: "User",
+      home: "Home",
+      explore: "Explore",
+      routes: "Routes",
+      events: "Events",
+      settings: "Settings",
+      menu: "Menu"
+    },
+    hero: {
+      title: "Continents, Countries and Cities",
+      subtitle: "Your elegant and practical starting point to explore the city of Santarém.",
+      start_btn: "Start Exploring",
+      weather_santarem: "Santarém",
+      weather_status: "Sunny, 22°C"
+    },
+    sections: {
+      discover: "Find Activities",
+      discover_sub: "Whatever your preference, we have the ideal itinerary for you.",
+      cultura: "Culture",
+      atividades: "Activities",
+      restaurantes: "Restaurants",
+      alojamento: "Accommodation"
+    },
+    search: {
+      placeholder: "Search for monuments, restaurants, trails in Santarém...",
+      close: "Close",
+      filterBy: "Filter by Category:",
+      all: "Featured",
+      resultsFor: "Instant results for",
+      exploring: "Exploring:",
+      detail: "Santarém in detail",
+      discoveries: "discoveries",
+      noResults: "No results found.",
+      tryOthers: "Try searching with other magical words or clear the filters.",
+      clear: "Clear Search and Filters"
+    },
+    profile: {
+      title: "My Profile",
+      subtitle: "Your Santarém treasures. Synced with your Mobile App.",
+      traveler: "CCC Traveler",
+      saved: "Saved Places",
+      emptyBag: "Empty Bag",
+      emptyBagDesc: "You haven't saved any places yet.",
+      exploreBtn: "Explore",
+      myRoutes: "My Routes",
+      routeNameInput: "Route Name (Required)",
+      selectPlaces: "Select places",
+      cancel: "Cancel",
+      saveRoute: "Save Route",
+      saving: "Saving...",
+      noRoutes: "You haven't organized any routes yet. Group your favorite places for your next trip!",
+      placesInRoute: "Places in Route",
+      loading: "Loading your passport...",
+      createRoute: "Create Route",
+      newRoute: "New Route",
+      noFavoritesYet: "You don't have any favorites in your bag yet! Go to the Explore page and save some places first.",
+      stops: "stops",
+      openMap: "Open Map",
+      freeLimitTitle: "Free Limit Reached",
+      freeLimitDesc: "You have reached the limit of 3 itineraries on the free plan. Upgrade to Premium for unlimited routes in the app.",
+      unlockPremium: "Unlock Premium ✨"
+    },
+    events: {
+      title: "Events in Santarém",
+      subtitle: "Fairs, concerts, shows and other activities in the city.",
+      intro:
+        "This list syncs automatically (RSS). Each entry shows date, venue and a summary — use “Show more” to read the full text here.",
+      loading: "Loading events…",
+      error:
+        "We couldn’t load the list right now. Refresh the page or wait a minute and try again.",
+      retry: "Try again",
+      none: "There are no events listed right now.",
+      noSearchResults: "No events match your search or the selected date.",
+      searchPlaceholder: "Search by name or keyword…",
+      filterByDate: "Date",
+      clearFilters: "Clear",
+      expandMore: "Show more",
+      showLess: "Show less",
+      noteFooter: "Full text as provided by the public feed.",
+      source: "Source",
+      footerCredit: "Municipality of Santarém"
+    }
+  }
+};

@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-200: #bfdbfe;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+  --color-primary-800: #1e40af;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+}
+
+:root {
+  --background: #ffffff; /* Page base is white so the Hero gradient blends invisibly */
+  --foreground: #334155; /* Slate-700 for text readability */
+}
+
+/* We removed the pre-fers color scheme dark to ensure it always stays light and creamy! */
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  letter-spacing: -0.01em;
+}
+
+@layer utilities {
+  .animate-in {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .fade-in {
+    animation-name: fadeIn;
+  }
+  
+  .slide-in-from-bottom-6 {
+    animation-name: slideInFromBottom;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slideInFromBottom {
+    from { transform: translateY(1.5rem); }
+    to { transform: translateY(0); }
+  }
+
+  /* Scrollbar estético */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 20px;
+  }
+}
